@@ -7,6 +7,8 @@ $layers = array (
 	'outdoors'	=> 'https://{s}.tile.thunderforest.com/outdoors',	// e.g. https://a.tile.thunderforest.com/outdoors/18/128676/81699.png
 	'osopendata'	=> 'https://{s}.os.openstreetmap.org/sv',		// e.g. https://a.os.openstreetmap.org/sv/18/128676/81699.png
 	
+    'example_map'	=> 'https://map{s}.example.com/{z}/{x}/{y}/example_map',		// e.g. https://map2.example.com/16/32792/21588/example_map
+
 	// Use your cyclestreets server here as an alternative to localhost
 	// 'cyclestreets' => 'http://localhost/tiles/cyclestreets',		// e.g. http://localhost/tiles/cyclestreets/16/32792/21588.png
 );
@@ -46,3 +48,7 @@ $apiKeyParameters = array (
 	'outdoors'	=> $thunderforestApiKeyString,
 );
 
+# Server alias variables, such as in map2.example.com
+$serverAliasVariables = array (
+	'example_map' => ['1', '2', '3', '4']
+);
