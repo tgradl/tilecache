@@ -5,6 +5,7 @@
 !.gitignore
 !README.md
 !index.php
+!layerinfo.php
 !.apache-vhost.conf.template
 !.config.php.template
 !nulltile.png
